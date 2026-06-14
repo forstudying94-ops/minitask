@@ -8,7 +8,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 app.UseHttpsRedirection();
-app.MapGet("/app/forstudying94_gmail_com", (string? x, string? y) =>
+app.MapGet("/app/markus_kek_mail_ru", (string? x, string? y) =>
 {
     if (!long.TryParse(x, out long numx) || !long.TryParse(y, out long numy) || numx < 0 || numy < 0)
     {
